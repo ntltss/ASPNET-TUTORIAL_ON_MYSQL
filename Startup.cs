@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace MvcMovie
 {
@@ -26,6 +27,9 @@ namespace MvcMovie
             services.AddControllersWithViews();
             // Razorページを有効化
             services.AddRazorPages();
+
+            services.AddDbContext<MvcMovieContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("MvcMovieContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
