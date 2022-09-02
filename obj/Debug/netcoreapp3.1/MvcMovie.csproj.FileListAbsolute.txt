@@ -34,6 +34,5 @@ C:\Users\close\Documents\ASPNET\20220902_FirstProject\MvcMovie\obj\Debug\netcore
 C:\Users\close\Documents\ASPNET\20220902_FirstProject\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.csproj.CopyComplete
 C:\Users\close\Documents\ASPNET\20220902_FirstProject\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\HelloWorld\Index.cshtml.g.cs
 C:\Users\close\Documents\ASPNET\20220902_FirstProject\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
-C:\Users\close\Documents\ASPNET\20220902_FirstProject\MvcMovie\bin\Debug\netcoreapp3.1\MvcMovie.StaticWebAssets.xml
 C:\Users\close\Documents\ASPNET\20220902_FirstProject\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.csproj.AssemblyReference.cache
 C:\Users\close\Documents\ASPNET\20220902_FirstProject\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.GeneratedMSBuildEditorConfig.editorconfig
