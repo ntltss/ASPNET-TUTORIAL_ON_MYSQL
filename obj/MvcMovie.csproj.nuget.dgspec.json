@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\close\\Documents\\ASPNET\\20220902_FirstProject\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\close\\Documents\\ASPNET\\20220905_ASPMySQL\\ASPNET-TUTORIAL_ON_MYSQL\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\close\\Documents\\ASPNET\\20220902_FirstProject\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\close\\Documents\\ASPNET\\20220905_ASPMySQL\\ASPNET-TUTORIAL_ON_MYSQL\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\close\\Documents\\ASPNET\\20220902_FirstProject\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\close\\Documents\\ASPNET\\20220905_ASPMySQL\\ASPNET-TUTORIAL_ON_MYSQL\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\close\\Documents\\ASPNET\\20220902_FirstProject\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\close\\Documents\\ASPNET\\20220905_ASPMySQL\\ASPNET-TUTORIAL_ON_MYSQL\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\close\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\close\\Documents\\ASPNET\\20220902_FirstProject\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\close\\Documents\\ASPNET\\20220905_ASPMySQL\\ASPNET-TUTORIAL_ON_MYSQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\close\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -57,6 +61,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [

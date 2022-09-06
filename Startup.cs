@@ -31,21 +31,24 @@ namespace MvcMovie
             services.AddRazorPages();
 
             // services.AddDbContext<MvcMovieContext>(options =>
-            //         options.UseSqlite(Configuration.GetConnectionString("MvcMovieContext")));
+            //         options.UseMySql(Configuration.GetConnectionString("MvcMovieContext")));
 
             services.AddDbContext<MvcMovieContext>(options =>
-            {
-                var connectionString = Configuration.GetConnectionString("MvcMovieContext");
+            options.UseMySql(Configuration.GetConnectionString("MvcMovieContext"),ServerVersion.AutoDetect(Configuration.GetConnectionString("MvcMovieContext"))));
 
-                if (Environment.IsDevelopment())
-                {
-                    options.UseSqlite(connectionString);
-                }
-                else
-                {
-                    options.UseSqlServer(connectionString);
-                }
-            });
+            // services.AddDbContext<MvcMovieContext>(options =>
+            // {
+            //     var connectionString = Configuration.GetConnectionString("MvcMovieContext");
+
+            //     if (Environment.IsDevelopment())
+            //     {
+            //         options.UseMySql(connectionString);
+            //     }
+            //     else
+            //     {
+            //         options.UseMySql(connectionString);
+            //     }
+            // });
 
         }
 
